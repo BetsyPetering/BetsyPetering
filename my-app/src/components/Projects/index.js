@@ -9,14 +9,14 @@ function Projects(props) {
       </div>
       <div className="content">
         <ul>
-        <li>
+          <li>
             <strong>Project:</strong> {props.name}
           </li>
           <li>
-            <strong>Languages:</strong> {props.languages}
+            <strong>Languages:</strong> {props.langs}
           </li>
           <li>
-            <strong>url:</strong> {props.address}
+            <strong>url:</strong> {props.addr}
           </li>
         </ul>
       </div>

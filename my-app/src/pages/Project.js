@@ -17,9 +17,9 @@ class Projectcards extends Component {
           <Projects
             id={project.id}
             name={project.name}
-            language={project.languages}
+            language={project.langs}
             image={project.image}
-            url={project.address}
+            url={project.addr}
           />
         ))}
       </Wrapper>

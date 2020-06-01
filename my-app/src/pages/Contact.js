@@ -1,20 +1,70 @@
 import React from "react";
 
-const Contact = () => (
-  <div>
-    <h1>Contact Page</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
-  </div>
-);
+class Contact extends React.Component {
+  constructor(props) {
+	super(props);
+	this.state = {
+  	name: '',
+  	email: '',
+  	message: ''
+	}
+}
 
+render() {
+ 
+    return(
+      <div>
+        <h1 className="cont">Contact Betsy</h1>  
+        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+            <div className="form-group">
+                <label htmlFor="name">Name</label>
+                <input type="text" className="form-control" />
+            </div>
+            <div className="form-group">
+                <label htmlFor="exampleInputEmail1">Email address</label>
+                <input type="email" className="form-control" aria-describedby="emailHelp" />
+            </div>
+            <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea className="form-control" rows="5"></textarea>
+            </div>
+            <button type="submit" className="btn sub">Submit</button>
+        </form>         
+      </div>  
+    );
+  }
+  onNameChange(event) {
+    this.setState({name: event.target.value})
+    }
+  
+    onEmailChange(event) {
+    this.setState({email: event.target.value})
+    }
+  
+    onMessageChange(event) {
+    this.setState({message: event.target.value})
+    }
+  
+    handleSubmit(e) {
+      e.preventDefault();
+  
+      fetch('http://localhost:3002/send',{
+          method: "POST",
+          body: JSON.stringify(this.state),
+          headers: {
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+          },
+        }).then(
+        (response) => (response.json())
+         ).then((response)=>{
+        if (response.status === 'success'){
+          alert("Message Sent."); 
+          this.resetForm()
+        }else if(response.status === 'fail'){
+          alert("Message failed to send.")
+        }
+      })
+    }
+}
 export default Contact;

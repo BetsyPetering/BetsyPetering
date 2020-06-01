@@ -2,43 +2,43 @@
   {
     "id": 1,
     "name": "Plan for the Day",
-    "languages": "jQuery, moment.js, html, css",
+    "langs": "jQuery, moment.js, html, css",
     "image": "https://live.staticflickr.com/65535/49933348587_5dae520171_c.jpg",
-    "address": "https://github.com/BetsyPetering/Day-Planner"    
+    "addr": "https://github.com/BetsyPetering/Day-Planner"    
   },
   {
     "id": 2,
     "name": "People Directory",
-    "languages": "React, Mongo DB, Heroku",
+    "langs": "React, Mongo DB, Heroku",
     "image": "https://live.staticflickr.com/65535/49933348602_7f73420a73_c.jpg",
-    "address": "https://betsypetering.github.io/Employee-Directory/"
+    "addr": "https://betsypetering.github.io/Employee-Directory/"
   },
   {
     "id": 3,
     "name": "WorkOut Tracking",
-    "languages": "Mongoos, Express",
+    "langs": "Mongoos, Express",
     "image": "https://live.staticflickr.com/65535/49933348642_a0a6b098db_c.jpg",
-    "address": "https://infinite-eyrie-55357.herokuapp.com/"
+    "addr": "https://infinite-eyrie-55357.herokuapp.com/"
   },
   {
     "id": 4,
     "name": "Trux Delivery",
-    "languages": "Password, Handlebars, Full Stack, Linting, GitHub",
+    "langs": "Password, Handlebars, Full Stack, Linting, GitHub",
     "image": "https://live.staticflickr.com/65535/49893424237_86f3f8f218_m.jpg",
-    "extra": ""
+    "addr": ""
   },
   {
     "id": 5,
     "name": "Andreas",
-    "languages": "Vollenweider",
+    "langs": "Vollenweider",
     "image": "https://live.staticflickr.com/4152/5097655354_1f5852eb37_m.jpg",
-    "extra": ""
+    "addr": ""
   },
   {
     "id": 6,
     "name": "Meryl",
-    "languages": "Streep",
+    "langs": "Streep",
     "image": "https://live.staticflickr.com/4706/39440283764_a9b9a642ce_m.jpg",
-    "extra": ""
+    "addr": ""
   }
 ]
