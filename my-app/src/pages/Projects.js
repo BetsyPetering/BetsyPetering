@@ -20,6 +20,7 @@ class Projectcards extends Component {
             language={project.langs}
             image={project.image}
             url={project.addr}
+            title={project.title}
             key={project.id}
           />
         ))}

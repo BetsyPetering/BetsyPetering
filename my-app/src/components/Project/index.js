@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Text } from 'react';
 import './style.css';
 
 function Project(props) {
@@ -10,13 +10,17 @@ function Project(props) {
       <div className='content'>
         <ul>
           <li>
-            <strong>Project:</strong> {props.name}
+            <scdtrong>Project:</scdtrong> {props.name}
           </li>
           <li>
             <strong>Languages:</strong> {props.language}
           </li>
           <li>
-            <strong>url:</strong> {props.url}
+            <strong>View Project:</strong>{' '}
+            <a href={props.url} target='_blank'>
+              {' '}
+              {props.title}
+            </a>
           </li>
         </ul>
       </div>
