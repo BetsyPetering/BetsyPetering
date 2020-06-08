@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64900a1978516377d4df85c1a7a314e1",
+    "revision": "3c36eb1c78ec3ae5c0e76ebeaa4197de",
     "url": "/BetsyPetering/index.html"
   },
   {
-    "revision": "30d1397de5cf892243f7",
+    "revision": "40d3c4afbeb6e0dc77fe",
     "url": "/BetsyPetering/static/css/main.f363d4d0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BetsyPetering/static/js/2.ef2c08f8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30d1397de5cf892243f7",
-    "url": "/BetsyPetering/static/js/main.fa00d41e.chunk.js"
+    "revision": "40d3c4afbeb6e0dc77fe",
+    "url": "/BetsyPetering/static/js/main.3f9a2100.chunk.js"
   },
   {
     "revision": "d24743cc79979a088f6a",
