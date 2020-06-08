@@ -26,9 +26,9 @@ function NavTabs() {
       </li>
       <li className='nav-item'>
         <Link
-          to='/home'
+          to='/langgs'
           className={
-            location.pathname === '/home' ? 'nav-link active' : 'nav-link'
+            location.pathname === '/langgs' ? 'nav-link active' : 'nav-link'
           }
         >
           Languages

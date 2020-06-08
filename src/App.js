@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
-import Home from './pages/Home';
+import Langgs from './pages/Langgs';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projectcards from './pages/Projects';
@@ -15,7 +15,7 @@ function App() {
           <NavTabs />
           <Route exact path='/' component={About} />
           <Route path='/portfolio' component={Projectcards} />
-          <Route path='/home' component={Home} />
+          <Route path='/langgs' component={Langgs} />
           <Route path='/contact' component={Contact} />
         </div>
       </Router>
