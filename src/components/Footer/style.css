@@ -1,0 +1,17 @@
+.row {
+  clear: both;
+  color: black;
+  background-color: mediumaquamarine;
+  margin: none;
+}
+
+a {
+  align-items: right;
+}
+
+#footImg {
+  height: 25px;
+  width: auto;
+  margin-right: 0.25rem;
+  align-content: right;
+}

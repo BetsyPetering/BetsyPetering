@@ -9,20 +9,26 @@ body {
 
 .jumbotron {
   background-color: #0a1612;
-  padding: .5rem 4rem .5rem 4rem;
+  padding: 0.5rem 4rem 0.5rem 4rem;
   color: #c5c1c0;
+  height: fit-content;
   width: 80%;
   margin-left: 10%;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
 }
 
 .about {
   margin: 2rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 1.2rem;
   color: #1a2930;
   background-color: #c5c1c0;
   padding: 20px;
+}
+
+#parag {
+  width: 57%;
+  margin-left: 21.5%;
 }
 
 .sub {
@@ -34,12 +40,18 @@ body {
 .cont {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
-  padding-top: .75rem;
+  padding-top: 0.75rem;
   color: #c5c1c0;
+  text-align: center;
 }
 
 .form-group {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.25rem;
-  padding-bottom: .25rem;
+  padding-bottom: 0.25rem;
+}
+
+#langImg {
+  width: 60%;
+  margin-left: 20%;
 }

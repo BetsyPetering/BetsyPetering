@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "People Directory",
-    "langs": "React, Mongo DB, Heroku",
+    "langs": "React, mLab MongoDB, Heroku",
     "image": "https://live.staticflickr.com/65535/49933348602_7f73420a73_c.jpg",
     "addr": "https://betsypetering.github.io/Employee-Directory/",
     "title": "See the People"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "WorkOut Tracking",
-    "langs": "Mongoos, Express",
+    "langs": "Mongoose, Express",
     "image": "https://live.staticflickr.com/65535/49933348642_a0a6b098db_c.jpg",
     "addr": "https://infinite-eyrie-55357.herokuapp.com/",
     "title": "Get Moving"
@@ -26,25 +26,25 @@
   {
     "id": 4,
     "name": "Trux Delivery",
-    "langs": "Password, Handlebars, Full Stack, Linting, GitHub",
+    "langs": "Password, Linting, Handlebars, Full Stack",
     "image": "https://live.staticflickr.com/65535/49932527368_e3eb0012f0_b.jpg",
     "addr": "https://prjcttwo.herokuapp.com/",
     "title": "Get Trucking"
   },
   {
     "id": 5,
-    "name": "Andreas",
-    "langs": "Vollenweider",
-    "image": "https://live.staticflickr.com/4152/5097655354_1f5852eb37_m.jpg",
-    "addr": "",
-    "title": ""
+    "name": "Money Tracker",
+    "langs": "PWA, mLab MongoDB, Heroku",
+    "image": "https://live.staticflickr.com/65535/49972002378_c18930f63d_b.jpg",
+    "addr": "https://whispering-hamlet-11553.herokuapp.com/",
+    "title": "Checkbook Register"
   },
   {
     "id": 6,
-    "name": "Meryl",
-    "langs": "Streep",
-    "image": "https://live.staticflickr.com/4706/39440283764_a9b9a642ce_m.jpg",
-    "addr": "",
-    "title": ""
+    "name": "Burgers Burgers Burgers",
+    "langs": "MySQL, Node, Express, Handlebars, ORM, Heroku",
+    "image": "https://live.staticflickr.com/65535/49972646161_dd29484388_b.jpg",
+    "addr": "https://cryptic-depths-80422.herokuapp.com/",
+    "title": "Hungry?"
   }
 ]
