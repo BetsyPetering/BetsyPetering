@@ -17,6 +17,7 @@ class Projectcards extends Component {
           <Project
             id={project.id}
             name={project.name}
+            github={project.github}
             language={project.langs}
             image={project.image}
             url={project.addr}

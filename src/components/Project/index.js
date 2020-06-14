@@ -11,7 +11,11 @@ function Project(props) {
       <div className='content'>
         <ul>
           <li>
-            <strong>Project:</strong> {props.name}
+            <strong>Project:</strong>{' '}
+            <a href={props.github} target='_blank' rel='noopener noreferrer'>
+              {' '}
+              {props.name}
+            </a>
           </li>
           <li>
             <strong>Languages:</strong> {props.language}
